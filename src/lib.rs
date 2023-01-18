@@ -86,25 +86,6 @@ pub enum State {
 // 3. Once the meetup date is reached, the contract collects the attendees' public key, divides its total amount of balance by the # of attendees and send that amount to the attendees who match its depositors' public key
 */
 
-
-// MeetupDate,
-// Balance,
-// Depositers,
-// Attendees,
-// Started,
-// Admin,
-// Token,
-// User(Identifier),
-// Recipient,
-// Amount,
-
-// pub struct DepositBalance {
-//     pub token: BytesN<32>,
-//     pub balance: i128,
-//     pub depositers: Vec<Identifier>,
-//     pub time_bound: TimeBound,
-// }
-
 // @rust tip: #[contractimpl] where contract lives
 #[contractimpl]
 impl ProfitDistributionContract {
