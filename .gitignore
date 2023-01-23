@@ -1,0 +1,6 @@
+/target/
+/target-tiny/
+/.sccache/
+/Cargo.lock
+.DS_Store
+.soroban
